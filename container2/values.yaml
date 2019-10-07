@@ -7,7 +7,7 @@ resources:
     memory: "1024M"
     cpu: "1"
   limits:
-    memory: "1024"
+    memory: "1024M"
 
 
 env:
