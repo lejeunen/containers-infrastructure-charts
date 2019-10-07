@@ -33,18 +33,18 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
-              containerPort: 9000
+              containerPort: {{ required "A httpContainerPort value is required!" .Values.httpContainerPort }}
               protocol: TCP
           livenessProbe:
-            initialDelaySeconds: 15
+            initialDelaySeconds: {{ required "A liveness.initialDelaySeconds value is required!" .Values.liveness.initialDelaySeconds }}
             httpGet:
-              path: /health
-              port: 9000
+              path: {{ required "A liveness.path value is required!" .Values.liveness.path }}
+              port: {{ required "A liveness.port value is required!" .Values.liveness.port }}
           readinessProbe:
-            initialDelaySeconds: 15
+            initialDelaySeconds: {{ required "A readiness.initialDelaySeconds value is required!" .Values.readiness.initialDelaySeconds }}
             httpGet:
-              path: /health
-              port: 9000
+              path: {{ required "A readiness.path value is required!" .Values.readiness.path }}
+              port: {{ required "A readiness.port value is required!" .Values.readiness.port }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           env:

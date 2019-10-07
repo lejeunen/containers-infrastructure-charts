@@ -38,6 +38,10 @@ This is not enforced by this kind of repository.
 
 ### Changes in common 
 
+Bump the version common/Chart.yaml (to ensure chart immutability)
+Don't forget to adapt the version of common in the requirements.yaml file.
+Bump the version of charts upgrading to the new common (to ensure chart immutability)
+
 When the common part is updated, modules need to be updated *individually* with
 
 ```
@@ -45,6 +49,8 @@ cd container1
 helm dependency update
 ```
 
+
 ### Things to improve
 
 - Handling change in common is annoying and should be improved somehow
+- Manually updating version can be tiresome as well

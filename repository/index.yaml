@@ -3,7 +3,7 @@ entries:
   container1:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-07T11:41:15.909064+02:00"
+    created: "2019-10-07T14:58:33.633415+02:00"
     description: A Helm chart for Kubernetes
     digest: 7a70fd4b36b5f5195d77b7490ebe9971cb90d9669a2403c3a07806f7ddbbe913
     name: container1
@@ -12,7 +12,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-07T11:41:15.908799+02:00"
+    created: "2019-10-07T14:58:33.632929+02:00"
     description: A Helm chart for Kubernetes
     digest: 615190f085aba21db003191c6f57e3c95d1d22be69222ae871992886fc0b2c72
     name: container1
@@ -22,7 +22,16 @@ entries:
   container2:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-07T11:41:15.910617+02:00"
+    created: "2019-10-07T14:58:33.635479+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 4a937621cfd5836e01107132e2c081933c0efb56989bc15dd13495e709cf1e08
+    name: container2
+    urls:
+    - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container2-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-10-07T14:58:33.635096+02:00"
     description: A Helm chart for Kubernetes
     digest: 3ec54ac35c1a618f2ac81d5ded51f15ade320ce2513dd18376f00b8a0618122b
     name: container2
@@ -31,7 +40,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-07T11:41:15.91029+02:00"
+    created: "2019-10-07T14:58:33.633779+02:00"
     description: A Helm chart for Kubernetes
     digest: 01e20934c7a4ee0ef71970e0d64c24dd445f59abb91060a547fd88c91ee22b66
     name: container2
@@ -41,11 +50,11 @@ entries:
   container3:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-07T11:41:15.91093+02:00"
+    created: "2019-10-07T14:58:33.635841+02:00"
     description: A Helm chart for Kubernetes
     digest: e2f07499240c0bb5bd7185fd11aa71817f8b3c876a03873b3ed3d6d6d05be91d
     name: container3
     urls:
     - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container3-0.1.0.tgz
     version: 0.1.0
-generated: "2019-10-07T11:41:15.908278+02:00"
+generated: "2019-10-07T14:58:33.631799+02:00"

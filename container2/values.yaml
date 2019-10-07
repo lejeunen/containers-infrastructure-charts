@@ -1,3 +1,15 @@
 # Default values for container1.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
+
+resources:
+  requests:
+    memory: "1024M"
+    cpu: "1"
+  limits:
+    memory: "1024"
+
+
+env:
+  - name: JVM_OPTS
+    value: "-Xmx600M"
