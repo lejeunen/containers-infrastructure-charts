@@ -7,7 +7,7 @@ This repository contains chart definitions for
 
 
 
-###Chart repository
+### Chart repository
 
 Additionally, it serves as a chart repository
 
@@ -36,7 +36,7 @@ resource "helm_release" "module1" {
 Note that it's considered best practice that chart+version is immutable. 
 This is not enforced by this kind of repository.
 
-###Changes in common 
+### Changes in common 
 
 When the common part is updated, modules need to be updated *individually* with
 
@@ -45,6 +45,6 @@ cd container1
 helm dependency update
 ```
 
-###Things to improve
+### Things to improve
 
 - Handling change in common is annoying and should be improved somehow
