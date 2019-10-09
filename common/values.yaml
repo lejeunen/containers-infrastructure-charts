@@ -7,7 +7,7 @@ replicaCount: 1
 
 image:
   repository:
-  tag:
+  tag: latest
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
