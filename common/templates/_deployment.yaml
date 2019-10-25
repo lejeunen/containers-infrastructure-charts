@@ -22,6 +22,10 @@ spec:
       labels:
         app.kubernetes.io/name: {{ include "common.name" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
+      annotations:
+        prometheus.io/scrape: {{ required "A prometheus.scrape value is required!" .Values.prometheus.scrape }}
+        prometheus.io/path: {{ required "A prometheus.path value is required!" .Values.prometheus.path }}
+        prometheus.io/port: {{ required "A prometheus.port value is required!" .Values.prometheus.port }}
     spec:
     {{- with .Values.imagePullSecrets }}
       imagePullSecrets:

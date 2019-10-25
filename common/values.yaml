@@ -23,6 +23,11 @@ readiness:
   path: /health
   port : 9000
 
+prometheus:
+  scape: true
+  path: /prometheus
+  port: 9000
+
 # for services
 service:
   type: ClusterIP
