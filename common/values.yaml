@@ -26,7 +26,7 @@ readiness:
 prometheus:
   scrape: true
   path: "/prometheus"
-  port: "9000"
+  port: 9000
 
 # for services
 service:
