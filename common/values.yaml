@@ -24,7 +24,7 @@ readiness:
   port : 9000
 
 prometheus:
-  scape: true
+  scrape: true
   path: /prometheus
   port: 9000
 
