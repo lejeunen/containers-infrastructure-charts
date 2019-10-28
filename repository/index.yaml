@@ -3,16 +3,43 @@ entries:
   container1:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.182895+02:00"
+    created: "2019-10-28T09:23:34.348304+01:00"
     description: A Helm chart for Kubernetes
-    digest: c95b79f2cdbce4a4c94b41e793a3ba0fa6e267d010ded180735c3aa77ba79d5c
+    digest: f97d88fdd6b76efaeebffaf16a4396f203b656d6bc594c8d6d537d83ba414c55
+    name: container1
+    urls:
+    - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container1-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-10-28T09:23:34.34794+01:00"
+    description: A Helm chart for Kubernetes
+    digest: afe295a6d44b132f9bda76cf8e64a2438640fc16f946371feea9e82a5bea990b
+    name: container1
+    urls:
+    - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container1-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-10-28T09:23:34.346675+01:00"
+    description: A Helm chart for Kubernetes
+    digest: c6bf2816b88d8c4539d454d8b3994fef5dc6fe955fbf4edf37ab23ea73878229
+    name: container1
+    urls:
+    - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container1-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-10-28T09:23:34.34578+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 286cda0840dc231b2b535bb53674d96f57d5307f06f4228e5910350926d61d8b
     name: container1
     urls:
     - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container1-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.181147+02:00"
+    created: "2019-10-28T09:23:34.345294+01:00"
     description: A Helm chart for Kubernetes
     digest: 2091be76bd7a597f3ab931dbe43ef7eb7b6ecb78008c03031544b4d60a7eb5fc
     name: container1
@@ -21,7 +48,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.180508+02:00"
+    created: "2019-10-28T09:23:34.344474+01:00"
     description: A Helm chart for Kubernetes
     digest: 7a70fd4b36b5f5195d77b7490ebe9971cb90d9669a2403c3a07806f7ddbbe913
     name: container1
@@ -30,7 +57,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.179819+02:00"
+    created: "2019-10-28T09:23:34.343368+01:00"
     description: A Helm chart for Kubernetes
     digest: 615190f085aba21db003191c6f57e3c95d1d22be69222ae871992886fc0b2c72
     name: container1
@@ -40,16 +67,43 @@ entries:
   container2:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.186789+02:00"
+    created: "2019-10-28T09:23:34.352354+01:00"
     description: A Helm chart for Kubernetes
-    digest: d8f1df7f5ba9aea551b1c4a9ad48e526dfa94d4610652482a8f4c2b2649c677d
+    digest: 11fb36d2be08b1c69e9bea06804b7aa277de8d556e5143ba5306ba7e2e731965
+    name: container2
+    urls:
+    - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container2-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-10-28T09:23:34.351985+01:00"
+    description: A Helm chart for Kubernetes
+    digest: e7b723d272376383c1ff475e7d286da5ee0fb5ecaf808edd951e094820c2770a
+    name: container2
+    urls:
+    - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container2-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-10-28T09:23:34.351381+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 663154fbe66d9274e58e38810b5c7f927965d176530cfac6a7c30b2885ae8066
+    name: container2
+    urls:
+    - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container2-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-10-28T09:23:34.350941+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 3a4cc1282256343345ac639f70a0a3359bd1adc1c0608cf3ea78b0058baef7b9
     name: container2
     urls:
     - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container2-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.186124+02:00"
+    created: "2019-10-28T09:23:34.350503+01:00"
     description: A Helm chart for Kubernetes
     digest: deed27540da9bfd4c4c42c3d0c83ee65af26c24c186dba767fd5950cf65ede89
     name: container2
@@ -58,7 +112,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.185533+02:00"
+    created: "2019-10-28T09:23:34.350055+01:00"
     description: A Helm chart for Kubernetes
     digest: c147df212800cfb755b40b67d66dafa2c2dc5dcde3f710253fb18e8388069e11
     name: container2
@@ -67,7 +121,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.185012+02:00"
+    created: "2019-10-28T09:23:34.349639+01:00"
     description: A Helm chart for Kubernetes
     digest: 64cb917865b0c8b313eb6f8de7ad62a93d431fbb54c4a7ae5c3adf1d9fe1fe7a
     name: container2
@@ -76,7 +130,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.184441+02:00"
+    created: "2019-10-28T09:23:34.349186+01:00"
     description: A Helm chart for Kubernetes
     digest: 3ec54ac35c1a618f2ac81d5ded51f15ade320ce2513dd18376f00b8a0618122b
     name: container2
@@ -85,7 +139,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.183845+02:00"
+    created: "2019-10-28T09:23:34.348759+01:00"
     description: A Helm chart for Kubernetes
     digest: 01e20934c7a4ee0ef71970e0d64c24dd445f59abb91060a547fd88c91ee22b66
     name: container2
@@ -95,16 +149,43 @@ entries:
   container3:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.189317+02:00"
+    created: "2019-10-28T09:23:34.355749+01:00"
     description: A Helm chart for Kubernetes
-    digest: 00524d492757e04edfe291231598377abaa905b897d3230dc7f3cc45bc9c050d
+    digest: 75ded49d965b80f2a0a41e7597bb3d999f2da73390b5a660c09e62d62a749abf
+    name: container3
+    urls:
+    - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container3-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-10-28T09:23:34.355438+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 29821b26891272589ec3713221971b992861f8b4d7b05276727b1880a7674a99
+    name: container3
+    urls:
+    - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container3-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-10-28T09:23:34.354908+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 0e6bfb28ddc6add32fb8601c4c0e9253ede915856d29e7fed8498627eb8d18ee
+    name: container3
+    urls:
+    - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container3-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-10-28T09:23:34.354417+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 68857ac1dd112994354ab8767955b59db17802bcd87d787b9f63187a313e8249
     name: container3
     urls:
     - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container3-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.188423+02:00"
+    created: "2019-10-28T09:23:34.353941+01:00"
     description: A Helm chart for Kubernetes
     digest: 1b7d5e56a5bee27b4137aa3f43ca321608eb3295650269aa7a4d6898a151df9a
     name: container3
@@ -113,7 +194,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.187845+02:00"
+    created: "2019-10-28T09:23:34.353368+01:00"
     description: A Helm chart for Kubernetes
     digest: 92a2e605fabb37277b96576b2426620ce98eaae5c7fb53616e824b4e359b8e12
     name: container3
@@ -122,11 +203,11 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-25T17:28:00.187299+02:00"
+    created: "2019-10-28T09:23:34.352855+01:00"
     description: A Helm chart for Kubernetes
     digest: e2f07499240c0bb5bd7185fd11aa71817f8b3c876a03873b3ed3d6d6d05be91d
     name: container3
     urls:
     - https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/container3-0.1.0.tgz
     version: 0.1.0
-generated: "2019-10-25T17:28:00.178573+02:00"
+generated: "2019-10-28T09:23:34.342259+01:00"
