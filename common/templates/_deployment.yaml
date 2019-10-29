@@ -41,11 +41,15 @@ spec:
               protocol: TCP
           livenessProbe:
             initialDelaySeconds: {{ required "A liveness.initialDelaySeconds value is required!" .Values.liveness.initialDelaySeconds }}
+            periodSeconds: {{ required "A liveness.periodSeconds value is required!" .Values.liveness.periodSeconds }}
+            failureThreshold: {{ required "A liveness.failureThreshold value is required!" .Values.liveness.failureThreshold }}
             httpGet:
               path: {{ required "A liveness.path value is required!" .Values.liveness.path }}
               port: {{ required "A liveness.port value is required!" .Values.liveness.port }}
           readinessProbe:
             initialDelaySeconds: {{ required "A readiness.initialDelaySeconds value is required!" .Values.readiness.initialDelaySeconds }}
+            periodSeconds: {{ required "A readiness.periodSeconds value is required!" .Values.readiness.periodSeconds }}
+            failureThreshold: {{ required "A readiness.failureThreshold value is required!" .Values.readiness.failureThreshold }}
             httpGet:
               path: {{ required "A readiness.path value is required!" .Values.readiness.path }}
               port: {{ required "A readiness.port value is required!" .Values.readiness.port }}

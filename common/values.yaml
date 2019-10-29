@@ -14,12 +14,16 @@ imagePullSecrets: []
 httpContainerPort: 9000
 
 liveness:
-  initialDelaySeconds: 30
+  initialDelaySeconds: 10
+  periodSeconds: 5
+  failureThreshold: 3
   path: /health
   port : 9000
 
 readiness:
   initialDelaySeconds: 30
+  periodSeconds: 10
+  failureThreshold: 3
   path: /health
   port : 9000
 
