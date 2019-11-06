@@ -22,7 +22,7 @@ Using Terraform, the chart can then be referenced as
 ```
 data "helm_repository" "containers" {
   name = "containers"
-  url  = "https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/docs/"
+  url  = "https://raw.githubusercontent.com/lejeunen/containers-infrastructure-charts/master/repository/"
 }
 
 resource "helm_release" "module1" {
